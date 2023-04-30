@@ -1,0 +1,25 @@
+body {
+    background-image: url(../img/body4.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Gruppo', cursive;
+}
+
+h1 {
+        animation-duration: 3s;
+        animation-name: slidein;
+        text-align: center;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+      
