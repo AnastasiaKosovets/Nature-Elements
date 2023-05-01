@@ -1,6 +1,7 @@
 body {
     background-image: url(../img/body4.jpg);
-    background-size: cover;
+    background-size: coVER;
+    /* background-repeat: inherit; */
     color: white;
     font-family: 'Gruppo', cursive;
 }
@@ -9,6 +10,7 @@ h1 {
         animation-duration: 3s;
         animation-name: slidein;
         text-align: center;
+        margin-top: -2em;
       }
       
       @keyframes slidein {
@@ -23,3 +25,4 @@ h1 {
         }
       }
       
+
