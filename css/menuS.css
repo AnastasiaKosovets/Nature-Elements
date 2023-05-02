@@ -1,0 +1,37 @@
+body {
+    /* background-color: rgb(3, 15, 3); */
+    background-image: url(../img/green-monstera-leaves-nature.jpg);
+    /* background-size: contain; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* background-repeat: inherit; */
+    color: white;
+    font-family: 'Gruppo', cursive;
+}
+
+h2 {
+    animation-duration: 3s;
+    animation-name: slidein;
+    text-align: center;
+    margin-top: -2em;
+    font-size: 3em;
+    font-weight: bold;
+    
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+.first {
+box-shadow: 0 0 0.5em 0.1em gainsboro;
+}
