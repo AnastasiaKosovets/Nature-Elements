@@ -15,7 +15,7 @@ body {
   background-color: rgba(240, 242, 244, 0.227);
 }
 
-h2 {
+/* h2 {
     animation-duration: 3s;
     animation-name: slidein;
     text-align: center;
@@ -35,7 +35,7 @@ h2 {
       margin-left: 0%;
       width: 100%;
     }
-  }
+  } */
   
 .first {
 box-shadow: 0 0 0.5em 0.1em gainsboro;
