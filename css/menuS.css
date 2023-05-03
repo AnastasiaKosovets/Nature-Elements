@@ -5,6 +5,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    overflow-x: hidden;
     /* background-repeat: inherit; */
     color: white;
     font-family: 'Gruppo', cursive;
