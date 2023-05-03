@@ -8,6 +8,8 @@ body {
     /* background-repeat: inherit; */
     color: white;
     font-family: 'Gruppo', cursive;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -36,7 +38,7 @@ h2 {
 box-shadow: 0 0 0.5em 0.1em gainsboro;
 }
 
-.linkPart {
+.linkPart, .cardFood {
   box-shadow: 0 0 0.5em 0.1em rosybrown;
 }
 
@@ -49,4 +51,11 @@ box-shadow: 0 0 0.5em 0.1em gainsboro;
 
 .links:hover {
   color: rosybrown;
+}
+
+.food {
+  /* box-shadow: 0 0 0.5em 0.1em rgb(161, 160, 160); */
+  border-radius: 0.5em;
+  font-size: x-large;
+  font-weight: bold;
 }
