@@ -1,6 +1,6 @@
 body {
     /* background-color: rgb(3, 15, 3); */
-    background-image: url(../img/green-monstera-leaves-nature.jpg);
+    background-image: url(../img/body3.jpg);
     /* background-size: contain; */
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,4 +63,8 @@ box-shadow: 0 0 0.5em 0.1em gainsboro;
   border-radius: 0.5em;
   font-size: x-large;
   font-weight: bold;
+}
+
+.cardText {
+  font-size: larger;
 }
