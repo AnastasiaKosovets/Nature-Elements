@@ -35,3 +35,18 @@ h2 {
 .first {
 box-shadow: 0 0 0.5em 0.1em gainsboro;
 }
+
+.linkPart {
+  box-shadow: 0 0 0.5em 0.1em rosybrown;
+}
+
+.links {
+  font-size:xx-large;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.links:hover {
+  color: rosybrown;
+}
