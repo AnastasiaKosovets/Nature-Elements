@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/body3.jpg);
+    background-image: url(../img/body3.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -9,35 +9,15 @@ body {
     font-family: 'Gruppo', cursive;
     margin: 0;
     padding: 0;
-}
+} 
 
 .navIcon {
   background-color: rgba(240, 242, 244, 0.227);
-}
+} 
 
-/* h2 {
-    animation-duration: 3s;
-    animation-name: slidein;
-    text-align: center;
-    margin-top: -2em;
-    font-size: 3em;
-    font-weight: bold;
-    
-  }
+ 
   
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  } */
-  
-.first {
+ .first {
 box-shadow: 0 0 0.5em 0.1em gainsboro;
 }
 
@@ -57,7 +37,7 @@ box-shadow: 0 0 0.5em 0.1em gainsboro;
 }
 
 .food {
-  /* box-shadow: 0 0 0.5em 0.1em rgb(161, 160, 160); */
+  box-shadow: 0 0 0.5em 0.1em rgb(161, 160, 160); 
   border-radius: 0.5em;
   font-size: x-large;
   font-weight: bold;
@@ -70,3 +50,8 @@ box-shadow: 0 0 0.5em 0.1em gainsboro;
 .navText {
   font-size: larger;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+} 
