@@ -50,6 +50,10 @@ h2 {
   font-size: larger;
 }
 
+.spaceImg {
+  width: 25em;
+}
+
  /* First try if buttons */
  /* .button {
   --offset: 10px;
