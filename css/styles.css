@@ -54,6 +54,11 @@ h2 {
   width: 25em;
 }
 
+.map {
+
+  width: 100%;
+}
+
  /* First try if buttons */
  /* .button {
   --offset: 10px;
