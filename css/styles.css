@@ -71,6 +71,17 @@ h2 {
   text-decoration: none;
 }
 
+.textEmail, .textExample {
+  font-size: larger;
+}
+
+.firstRow {
+  width: 100%;
+  background-color: rgba(188, 143, 143, 0.332);
+  border-radius: 2em;
+  
+}
+
 * {
   margin: 0;
   padding: 0;
