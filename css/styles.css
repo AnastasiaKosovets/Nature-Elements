@@ -103,6 +103,12 @@ h2 {
   background-size: cover;
 }
 
+.aboutProducts1 {
+  background-image: url(../img/IMG_4193.jpg);
+  height: 20em;
+  background-size: cover;
+}
+
 .span {
   font-size: xx-large;
 }
