@@ -97,10 +97,23 @@ h2 {
   height: 22em;
 }
 
+.aboutProducts {
+  background-image: url(../img/free.gif);
+  height: 20em;
+  background-size: cover;
+}
+
+.span {
+  font-size: xx-large;
+}
 .card-textReserve {
   padding-top: 3em;
   font-size: x-large;
   font-weight: bold;
+}
+
+.card-textExperience {
+  font-size: x-large;
 }
 
 * {
