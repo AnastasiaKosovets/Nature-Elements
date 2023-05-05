@@ -67,6 +67,10 @@ h2 {
   color: rgb(4, 61, 4);
 }
 
+.reserveBtn {
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
