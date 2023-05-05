@@ -82,6 +82,27 @@ h2 {
   
 }
 
+.leftCard{
+  background-image: url(../img/foto1Exp.jpg);
+  height: 22em;
+}
+
+.rightCard {
+  background-image: url(../img/foto2Exp.png);
+  height: 22em;
+}
+
+.middleCard {
+  background-color: rgba(188, 143, 143, 0.332);
+  height: 22em;
+}
+
+.card-text {
+  padding-top: 3em;
+  font-size: x-large;
+  font-weight: bold;
+}
+
 * {
   margin: 0;
   padding: 0;
