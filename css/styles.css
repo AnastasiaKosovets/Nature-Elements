@@ -134,6 +134,15 @@ h2 {
   background-size: auto;
 }
 
+.socialMedia {
+    box-shadow: 0 0 0.5em 0.1em gainsboro;
+    background-color: rgba(240, 242, 244, 0.11);
+}
+
+.instagram, .facebook {
+  height: 3em;
+  width: 3em;
+}
 
 
 * {
