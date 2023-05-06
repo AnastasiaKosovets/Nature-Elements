@@ -1,23 +1,27 @@
+/* css style of menu body page */
+
 body {
-    background-image: url(../img/body3.jpg); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: fixed;
-    overflow-x: hidden;
-    color: white;
-    font-family: 'Gruppo', cursive;
-    margin: 0;
-    padding: 0;
+  background-image: url(../img/body3.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  color: white;
+  font-family: 'Gruppo', cursive;
+  margin: 0;
+  padding: 0;
 } 
 
 .navIcon {
   background-color: rgba(240, 242, 244, 0.227);
 } 
-  
- .first {
-box-shadow: 0 0 0.5em 0.1em gainsboro;
+
+.first {
+  box-shadow: 0 0 0.5em 0.1em gainsboro;
 }
+
+/* link part for the food style */
 
 .linkPart, .cardFood {
   box-shadow: 0 0 0.5em 0.1em rosybrown;
@@ -33,6 +37,8 @@ box-shadow: 0 0 0.5em 0.1em gainsboro;
 .links:hover {
   color: rosybrown;
 }
+
+/* food card style */
 
 .food {
   box-shadow: 0 0 0.5em 0.1em rgb(161, 160, 160); 

@@ -1,24 +1,27 @@
+/* Body style */
+
 body {
-    background-image: url(../img/body4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: fixed;
-    overflow-x: hidden;
-    color: white;
-    font-family: 'Gruppo', cursive;
-    margin: 0;
-    padding: 0;
+  background-image: url(../img/body4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  color: white;
+  font-family: 'Gruppo', cursive;
+  margin: 0;
+  padding: 0;
 }
 
+/* css style of Logo and his animation */
+
 h2 { 
-    animation-duration: 3s;
-    animation-name: slidein;
-    text-align: center;
-    /* margin-top: -2em; */
-    margin-bottom: 1em;
-    font-size: 3em;
-    font-weight: bold;
+  animation-duration: 3s;
+  animation-name: slidein;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 3em;
+  font-weight: bold;
         
 }
 
@@ -32,7 +35,9 @@ h2 {
     width: 100%;
   }
 }  
-      
+ 
+/* General box-shadow of the cols */
+
 .first {
   box-shadow: 0 0 0.5em 0.1em gainsboro;
 }
@@ -40,9 +45,14 @@ h2 {
 .bShadow{
   box-shadow: 0 0 0.5em 0.2em gainsboro;
 }
- .items:hover {
+
+/* Hover of the items of menu-page */
+
+.items:hover {
   background-color: rgba(188, 143, 143, 0.655);
- }
+}
+
+/* css style of the icon & text of the NavBar */
 
 .navIcon {
   background-color: rgba(240, 242, 244, 0.227);
@@ -52,14 +62,20 @@ h2 {
   font-size: larger;
 }
 
+/* Size of the IMG restaurant */
+
 .spaceImg {
   width: 25em;
 }
+
+/* size of th google map */
 
 .map {
   height: 100%;
   width: 100%;
 }
+
+/* css style of the reserve-page */
 
 .choose {
   background-color: rgba(15, 69, 10, 0.185);
@@ -82,40 +98,43 @@ h2 {
   
 }
 
-.leftCard{
-  background-image: url(../img/foto1Exp.jpg);
+.leftCard, .rightCard, .middleCard {
   height: 22em;
+}
+.leftCard{
+  background-image: url(../img/foto1Exp.jpg); 
 }
 
 .rightCard {
   background-image: url(../img/foto2Exp.png);
-  height: 22em;
 }
 
 .middleCard {
   background-color: rgba(188, 143, 143, 0.332);
-  height: 22em;
 }
 
-.aboutProducts {
-  background-image: url(../img/free.gif);
-  height: 20em;
-  background-size: cover;
-}
-
-.aboutProducts1 {
-  background-image: url(../img/IMG_4193.jpg);
-  height: 20em;
-  background-size: cover;
-}
-
-.span {
-  font-size: xx-large;
-}
 .card-textReserve {
   padding-top: 3em;
   font-size: x-large;
   font-weight: bold;
+}
+
+/* about-us page css style */
+
+.aboutProducts, .aboutProducts1, .ourSpaces  {
+  height: 20em;
+  background-size: cover;
+}
+.aboutProducts {
+  background-image: url(../img/free.gif);
+}
+
+.aboutProducts1 {
+  background-image: url(../img/IMG_4193.jpg);
+}
+
+.span {
+  font-size: xx-large;
 }
 
 .card-textExperience {
@@ -124,8 +143,6 @@ h2 {
 
 .ourSpaces {
   background-image: url(../img/129.jpg);
-  height: 20em;
-  background-size: cover;
 }
 
 .leftCardAbout {
@@ -134,16 +151,17 @@ h2 {
   background-size: auto;
 }
 
+/* Contact page css style */
+
 .socialMedia {
-    box-shadow: 0 0 0.5em 0.1em gainsboro;
-    background-color: rgba(240, 242, 244, 0.11);
+  box-shadow: 0 0 0.5em 0.1em gainsboro;
+  background-color: rgba(240, 242, 244, 0.11);
 }
 
 .instagram, .facebook {
   height: 3em;
   width: 3em;
 }
-
 
 * {
   margin: 0;
