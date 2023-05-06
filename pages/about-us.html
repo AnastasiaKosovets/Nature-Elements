@@ -10,7 +10,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,7 +27,7 @@
           <img src="../img/4-1.png" alt="Logo principal" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navIcon"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -44,15 +44,15 @@
           <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a
-                class="nav-link active text-light border rounded-4"
+                class="nav-link navText active text-center text-light border rounded-4 ms-5"
                 aria-current="page"
-                href="../pages/menu.html"
+                href="/pages/menu.html"
                 >Carta</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active text-light border rounded-4 ms-5"
+                class="nav-link active text-center text-light border rounded-4 ms-5"
                 aria-current="page"
                 href="../pages/experience.html"
                 >Experiencia</a
@@ -60,7 +60,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active text-light border rounded-4 ms-5"
+                class="nav-link active text-center text-light border rounded-4 ms-5"
                 aria-current="page"
                 href="../pages/about-us.html"
                 >Sobre nosotros</a
@@ -68,7 +68,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active text-light border rounded-4 ms-5"
+                class="nav-link active text-center text-light border rounded-4 ms-5"
                 aria-current="page"
                 href="../pages/reserve.html"
                 >Reservas</a
@@ -76,14 +76,13 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active text-light border rounded-4 ms-5"
+                class="nav-link active text-center text-light border rounded-4 ms-5"
                 aria-current="page"
                 href="../pages/contact.html"
                 >Contacto</a
               >
             </li>
-            <li class="nav-item">
-            </li>
+            <li class="nav-item"></li>
           </ul>
         </div>
       </div>
@@ -94,141 +93,59 @@
     <!-- First section of the page -->
 
     <div container-fluid>
-      <!-- Name presentation -->
+      <!-- Logo Name -->
 
       <h2>Nature Elements</h2>
 
       <!-- Gallery of the space -->
 
-      <div class="row justify-content-center align-items-center">
-        <div class="col col-lg-4 col-md-6 col-sm-12">
-          <div
-            id="carouselExampleControls"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner my-5">
-              <div class="carousel-item active">
-                <img src="./img/exp1.jpg" class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="./img/exp2-1.jpg" class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="./img/exp3-1.jpg" class="d-block w-100" alt="..." />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+      <div class="row d-flex justify-content-center">
+        <div class="col-10 mb-3 col-md-6">
+          <div class="card bg-transparent first">
+            <h3>Nuestros Espacios</h3>
+            <p class="card-textExperience">
+             Tenemos varias salas y diferentes restaurantes que puedes visitar y hacer reserva en el que prefieres, con cual te sientes mas identificado. Todo esta hecho para que puedas disfrutar de una experiencia única.
+            </p>
+           
           </div>
         </div>
-
-        <!-- Explicaction of the space -->
-
-        <div class="col d-flex col-lg-6 col-md-6 col-sm-12">
-          <div
-            class="card first bg-transparent"
-            style="width: 60rem; height: 30rem"
-          >
-            <div class="card-body text-center">
-              <h5 class="card-title display-2">Experiencia</h5>
-              <p class="card-text text-center display-6">
-                Disfruta de la re-conexión con la naturaleza, vuelve al origen
-                de todo, reconecta contigo mismo y deja que tu mente se relaje.
-                Intentamos recrear un ambiente especial, para que puedas
-                disfrutarlo a tu manera.
-              </p>
-            </div>
-          </div>
-        </div>
+        <!-- <div class="col-10 mb-3 col-md-4">
+          <div class="card ourSpaces bg-transparent first"></div>
+        </div> -->
       </div>
-
       <!-- Second section of the page -->
 
       <div class="row justify-content-center align-items-center">
         <!-- Explication of origin of the products -->
-
-        <div class="col d-flex col-lg-6 col-md-6 col-sm-12">
-          <div
-            class="card first bg-transparent"
-            style="width: 60rem; height: 30rem"
-          >
-            <div class="card-body text-center">
-              <h5 class="card-title display-2">Compromiso</h5>
-              <p class="card-text text-center display-6">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea
-                commodi eaque possimus voluptatem repudiandae? Dignissimos,
-                fugit magni ea soluta modi minima quas voluptatibus voluptate,
-                labore porro maxime natus recusandae unde!
-              </p>
-            </div>
+        <div class="col-10 text-center mb-3 col-md-4">
+          <h1>Construcción artesanal</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-8 text-center mb-3 col-md-4"></div>
+          <div class="card first bg-transparent " style="width: 25rem;">
+          <img src="../img/IMG_4179.jpeg" class="card-img-top pt-2" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Decoración hecha a mano</p>
           </div>
         </div>
-        <!-- Gallery of our products origin -->
-
-        <div class="col d-flex col-lg-5 col-md-6 col-sm-12">
-          <div
-            id="carouselExampleControls"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner my-5">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="..." />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+        </div>
+        <!-- <div class="col-12 col-md-4">
+          <div class="card leftCardAbout">
+          </div>
+        </div> -->
+        <div class="col-10 mb-3 col-md-4">
+          <div class="card bg-transparent first text-center">
+            <h3>Exclusividad</h3>
+            <p class="card-textExperience">
+              Siempre en contacto con los constructores cercanos, la gran parte de la decoración esta realizada por un maestro fallero.
+            </p>
+          </div>
+        </div>
+        <div class="card first bg-transparent " style="width: 25rem;">
+          <img src="../img/IMG_4172.jpeg" class="card-img-top pt-2" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Sostenibilidad</p>
           </div>
         </div>
       </div>

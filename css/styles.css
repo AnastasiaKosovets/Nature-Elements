@@ -21,7 +21,7 @@ h2 {
     font-weight: bold;
         
 }
-   
+
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -120,6 +120,18 @@ h2 {
 
 .card-textExperience {
   font-size: x-large;
+}
+
+.ourSpaces {
+  background-image: url(../img/129.jpg);
+  height: 20em;
+  background-size: cover;
+}
+
+.leftCardAbout {
+  background-image: url(../img/IMG_4171.jpeg);
+  height: 20em;
+  background-size: auto;
 }
 
 * {
