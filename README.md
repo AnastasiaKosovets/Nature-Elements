@@ -4,36 +4,36 @@
 
 ## Table of Contents
 
-- [Sobre la tarea:thought_balloon:](#sobre)
+- [About project:thought_balloon:](#about)
 - [Inspiration:sparkles:](#inspiration)
 - [Process:hourglass:](#process)
 - [Functionality:computer:](#functionality)
-- [Errores conocidos:warning:](#errors)
+- [Errors:warning:](#errors)
 - [Used technology:white_check_mark:](#used-technology)
-- [License y Copyright:pencil::copyright:](#license-y-copyright)
+- [License and Copyright:pencil::copyright:](#license-and-copyright)
 
 
-###Sobre la tarea:
+### About project:
 
-El proyecto consta de creación de una página web del restaurante digital con requisitos mínimos de tres páginas HTML hipervinculadas con la temática libre. Todo ello para poner en práctica los conocimientos adquiridos de HTML5, CSS Layout, Bootstrap y uso correcto del GitHub y GitHubPages, además del diseño Responsive.
-	A  través de este enlace se puede acceder a la página del restaurante:
+The project consists of creating a digital restaurant website with minimum requirements of three hyperlinked HTML pages with free theme. All this to put into practice the acquired knowledge of HTML5, CSS Layout, Bootstrap and correct use of GitHub and GitHubPages, as well as Responsive design.
+	Through this link you can access the restaurant's website:
     https://anastasiakosovets.github.io/Nature-Elements/
 
-###Inspiración:
+### Inspiración:
 
-Como inspiración tome ejemplo del restaurante BEGIN Valencia, además de espacios construidos por G+D(greendecorum). He recopilado y unido varias temáticas que tienen, además de la inspiración por otros restaurantes del mismo criterio. 
+As inspiration I took the example of the restaurant BEGIN Valencia, as well as spaces built by G+D(greendecorum). I have compiled and united several themes that they have in addition to the examples of other restaurants of the same criteria.
 
-Imagen del restaurante que tome por inspiración:
+Image of the restaurant I took for inspiration:
 > ![image](./img/begin.png)
 
-###Proceso:
+### Process:
 
-Me he basado en estética del restaurante begin, pero creando una versión totalmente personalizada con un nombre y logo distintos. Para ello Utilice colores oscuros de fondo, pero legibles, que aportan cercanía y ganas de sumergirte a esta idea que propone el restaurante. Intente hacer estilo minimalista en cuanto al menú, que las líneas sean finas, sin mucho ruido visual y en general con un contenido reducido, para no sobrecargar la lectura general. 
+I have based on the aesthetics of Begin restaurant, but creating a completely customized version with a different name and logo. For this I used dark colors in the background, but legible, that bring closeness and desire to immerse yourself in this idea that the restaurant proposes. Try to make a minimalist style in terms of the menu, that the lines are thin, without much visual noise and in general with a reduced content, so as not to overload the general reading. 
 
-- **Mi página inicial:**
+- **My home page:**
 > ![image](./img/myrest.png)
 
-Para poder llevar a cabo realización de esta página utilice plantillas del Bootstrap, pero todo personalizado para lograr mejor diseño (añadiendo o quitando propiedades).
+In order to carry out the realization of this page I used Bootstrap templates, but all customized to achieve better design (adding or removing properties).
 
 - **Navbar:**
 > ![image](./img/navBarBootstrap.png)
@@ -50,36 +50,36 @@ Para poder llevar a cabo realización de esta página utilice plantillas del Boo
 > ![image](./img/formBootstrap.png)
 > ![image](./img/form.png)
 
-###Funcionalidad:
+### Functionality:
 
-Esta web esta adaptada para ser responsive, aquí se muestran diferentes vistas según el tamaño de la pantalla:
+This website is adapted to be responsive, here are shown different views according to the size of the screen:
 > ![image](./img/menuScreen.png)
 > ![image](./img/comparationScreen.png)
 
-**El proyecto consta de varias páginas.**
+**The project has several pages.**
 
-***Página principal:***
+***My home page:***
 > ![image](./img/myrest.png)
 
-***Carta del Restaurante:***
+***Restaurant's Menu:***
 > ![image](./img/menuScreen.png)
 
-***Sobre la experiencia que ofrece el restaurante:***
+***About the restaurant's experience:***
 > ![image](./img/expScreen.png)
 
-***Información del propio restaurante:***
+***Information from the restaurant:***
 > ![image](./img/aboutScreen.png)
 
-***Página de reserva:***
+***Booking page:***
 > ![image](./img/reservScreen.png)
 
-***Página de contacto:***
+***Contact Us Page:***
 > ![image](./img/contactScreen.png)
 
-###Errores conocidos:
-En el formulario de reserva esta activada opción de poder gestionar una reserva introduciendo tus datos, posteriori salta una página diferente con la condirmación de la reserva. Pero esta página es ficticia, ya que no se envía a ningún sitio, ni recoge los datos introducidos.
+### Errors:
+In the booking form is activated option to manage a reservation by entering your data, then we go to a different page with the confirmation of the reservation. But this page is fictitious, since it is not sent to any site, nor does it collect the data entered.
 
-###Fuente:
+### Font:
 - Gruppo https://fonts.google.com/specimen/Gruppo
 
 ### Used technology
@@ -88,6 +88,6 @@ En el formulario de reserva esta activada opción de poder gestionar una reserva
 
 
 
-### License y Copyright
+### License and Copyright
 
-*Imagenes introducidas son propiedad del restaurante Begin Valencia https://beginrestaurante.com/ y G+D(greendecorum) https://greendecorum.com/* 
+*Images are property of the restaurant Begin Valence https://beginrestaurante.com/ y G+D(greendecorum) https://greendecorum.com/* 
