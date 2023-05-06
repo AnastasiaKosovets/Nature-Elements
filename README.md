@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-- [About project:thought_balloon:](#about)
+- [About project:thought_balloon:](#about-project)
 - [Inspiration:sparkles:](#inspiration)
 - [Process:hourglass:](#process)
 - [Functionality:computer:](#functionality)
@@ -19,7 +19,7 @@ The project consists of creating a digital restaurant website with minimum requi
 	Through this link you can access the restaurant's website:
     https://anastasiakosovets.github.io/Nature-Elements/
 
-### Inspiración:
+### Inspiration:
 
 As inspiration I took the example of the restaurant BEGIN Valencia, as well as spaces built by G+D(greendecorum). I have compiled and united several themes that they have in addition to the examples of other restaurants of the same criteria.
 
